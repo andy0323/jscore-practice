@@ -14,9 +14,9 @@
 		A1B859AC1A67ACF100FCADD9 /* JSCoreDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B859AB1A67ACF100FCADD9 /* JSCoreDemoTests.m */; };
 		A1B859B71A67AD0300FCADD9 /* JXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B859B61A67AD0300FCADD9 /* JXViewController.m */; };
 		A1B859B91A67AD3000FCADD9 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B859B81A67AD3000FCADD9 /* JavaScriptCore.framework */; };
-		A1B859BC1A67AD4900FCADD9 /* JSCoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B859BB1A67AD4900FCADD9 /* JSCoreManager.m */; };
-		A1B859C21A67C28E00FCADD9 /* JSCoreManager+ClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B859C11A67C28E00FCADD9 /* JSCoreManager+ClassMethod.m */; };
-		A1B859C81A67C36000FCADD9 /* JSCoreManager+InstanceMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B859C71A67C36000FCADD9 /* JSCoreManager+InstanceMethod.m */; };
+		A1B859D01A67C36000FCADD9 /* JSCoreManager+ClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B859CB1A67C36000FCADD9 /* JSCoreManager+ClassMethod.m */; };
+		A1B859D11A67C36000FCADD9 /* JSCoreManager+InstanceMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B859CD1A67C36000FCADD9 /* JSCoreManager+InstanceMethod.m */; };
+		A1B859D21A67C36000FCADD9 /* JSCoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B859CF1A67C36000FCADD9 /* JSCoreManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +43,12 @@
 		A1B859B51A67AD0300FCADD9 /* JXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXViewController.h; sourceTree = "<group>"; };
 		A1B859B61A67AD0300FCADD9 /* JXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXViewController.m; sourceTree = "<group>"; };
 		A1B859B81A67AD3000FCADD9 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		A1B859BA1A67AD4900FCADD9 /* JSCoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSCoreManager.h; path = JSCoreManager/JSCoreManager.h; sourceTree = "<group>"; };
-		A1B859BB1A67AD4900FCADD9 /* JSCoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSCoreManager.m; path = JSCoreManager/JSCoreManager.m; sourceTree = "<group>"; };
-		A1B859C01A67C28E00FCADD9 /* JSCoreManager+ClassMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSCoreManager+ClassMethod.h"; sourceTree = "<group>"; };
-		A1B859C11A67C28E00FCADD9 /* JSCoreManager+ClassMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSCoreManager+ClassMethod.m"; sourceTree = "<group>"; };
-		A1B859C61A67C36000FCADD9 /* JSCoreManager+InstanceMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSCoreManager+InstanceMethod.h"; sourceTree = "<group>"; };
-		A1B859C71A67C36000FCADD9 /* JSCoreManager+InstanceMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSCoreManager+InstanceMethod.m"; sourceTree = "<group>"; };
+		A1B859CA1A67C36000FCADD9 /* JSCoreManager+ClassMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSCoreManager+ClassMethod.h"; sourceTree = "<group>"; };
+		A1B859CB1A67C36000FCADD9 /* JSCoreManager+ClassMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSCoreManager+ClassMethod.m"; sourceTree = "<group>"; };
+		A1B859CC1A67C36000FCADD9 /* JSCoreManager+InstanceMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSCoreManager+InstanceMethod.h"; sourceTree = "<group>"; };
+		A1B859CD1A67C36000FCADD9 /* JSCoreManager+InstanceMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSCoreManager+InstanceMethod.m"; sourceTree = "<group>"; };
+		A1B859CE1A67C36000FCADD9 /* JSCoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCoreManager.h; sourceTree = "<group>"; };
+		A1B859CF1A67C36000FCADD9 /* JSCoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCoreManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,12 +73,7 @@
 		A1B859891A67ACF100FCADD9 = {
 			isa = PBXGroup;
 			children = (
-				A1B859BA1A67AD4900FCADD9 /* JSCoreManager.h */,
-				A1B859BB1A67AD4900FCADD9 /* JSCoreManager.m */,
-				A1B859C61A67C36000FCADD9 /* JSCoreManager+InstanceMethod.h */,
-				A1B859C71A67C36000FCADD9 /* JSCoreManager+InstanceMethod.m */,
-				A1B859C01A67C28E00FCADD9 /* JSCoreManager+ClassMethod.h */,
-				A1B859C11A67C28E00FCADD9 /* JSCoreManager+ClassMethod.m */,
+				A1B859C91A67C36000FCADD9 /* JSCoreManager */,
 				A1B859941A67ACF100FCADD9 /* JSCoreDemo */,
 				A1B859BD1A67BBC900FCADD9 /* framework */,
 				A1B859A81A67ACF100FCADD9 /* JSCoreDemoTests */,
@@ -141,6 +136,20 @@
 				A1B859B81A67AD3000FCADD9 /* JavaScriptCore.framework */,
 			);
 			name = framework;
+			sourceTree = "<group>";
+		};
+		A1B859C91A67C36000FCADD9 /* JSCoreManager */ = {
+			isa = PBXGroup;
+			children = (
+				A1B859CA1A67C36000FCADD9 /* JSCoreManager+ClassMethod.h */,
+				A1B859CB1A67C36000FCADD9 /* JSCoreManager+ClassMethod.m */,
+				A1B859CC1A67C36000FCADD9 /* JSCoreManager+InstanceMethod.h */,
+				A1B859CD1A67C36000FCADD9 /* JSCoreManager+InstanceMethod.m */,
+				A1B859CE1A67C36000FCADD9 /* JSCoreManager.h */,
+				A1B859CF1A67C36000FCADD9 /* JSCoreManager.m */,
+			);
+			name = JSCoreManager;
+			path = ../JSCoreManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,11 +252,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B8599B1A67ACF100FCADD9 /* AppDelegate.m in Sources */,
+				A1B859D21A67C36000FCADD9 /* JSCoreManager.m in Sources */,
+				A1B859D01A67C36000FCADD9 /* JSCoreManager+ClassMethod.m in Sources */,
+				A1B859D11A67C36000FCADD9 /* JSCoreManager+InstanceMethod.m in Sources */,
 				A1B859B71A67AD0300FCADD9 /* JXViewController.m in Sources */,
 				A1B859981A67ACF100FCADD9 /* main.m in Sources */,
-				A1B859C21A67C28E00FCADD9 /* JSCoreManager+ClassMethod.m in Sources */,
-				A1B859BC1A67AD4900FCADD9 /* JSCoreManager.m in Sources */,
-				A1B859C81A67C36000FCADD9 /* JSCoreManager+InstanceMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
